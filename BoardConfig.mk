@@ -112,7 +112,6 @@ TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := false
 TW_INCLUDE_NTFS_3G := true
 TW_USE_TOOLBOX := true
-TW_DEVICE_VERSION := Nokia 2.2 - Based On Lopestorm's And Mechanik6's tree
 TW_DEFAULT_DEVICE_NAME := WSP_sprout
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
