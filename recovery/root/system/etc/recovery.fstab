@@ -1,6 +1,5 @@
-#<src>                                                 <mnt_point>            <type>  <mnt_flags and options>                            <fs_mgr_flags>
+/dev/block/platform/bootdevice/by-name/system /system ext4 ro wait,slotselect,avb=vbmeta,first_stage_mount
 
-system                                     /system          ext4                ro wait,slotselect,logical
-vendor                                                  /vendor                ext4    ro,barrier=1,discard                                 wait,slotselect,avb,logical,first_stage_mount
-/dev/block/bootdevice/by-name/userdata                  /data                  f2fs
-/dev/block/bootdevice/by-name/para                      /misc                  emmc    defaults                                             defaults
+/dev/block/platform/bootdevice/by-name/vendor /vendor ext4 ro wait,slotselect,avb,first_stage_mount
+
+/dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
